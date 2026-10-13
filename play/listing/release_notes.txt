@@ -1,0 +1,1 @@
+First release: medications with flexible schedules, dose reminders with "Mark taken", injection site rotation, history with CSV export, and backup/restore. Everything stays on your device.

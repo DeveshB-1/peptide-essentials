@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E7C6B"/>
+      <stop offset="1" stop-color="#0A5C50"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="500" fill="url(#bg)"/>
+  <path d="M0,330C220,280 470,380 1024,290V500H0z" fill="#1A9C86" opacity="0.55"/>
+  <g transform="translate(96 140) scale(2.6)">
+    <path d="M7,5h34a6,6 0 0 1 6,6v30a6,6 0 0 1 -6,6h-34a6,6 0 0 1 -6,-6v-30a6,6 0 0 1 6,-6z" fill="#FFFFFF"/>
+    <path d="M7,5h34a6,6 0 0 1 6,6v5h-46v-5a6,6 0 0 1 6,-6z" fill="#B9F3E6"/>
+    <rect x="9" y="0" width="6" height="10" rx="1.5" fill="#06443B"/>
+    <rect x="33" y="0" width="6" height="10" rx="1.5" fill="#06443B"/>
+    <path d="M13,31.5l7,7l15,-15" fill="none" stroke="#0E7C6B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="300" y="225" font-family="DejaVu Sans, sans-serif" font-size="76" font-weight="bold" fill="#FFFFFF">Dose Log</text>
+  <text x="302" y="282" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#D8FFF6">Your prescribed doses, logged and on time.</text>
+  <text x="302" y="326" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#B9F3E6">Reminders · Site rotation · History · Offline</text>
+</svg>

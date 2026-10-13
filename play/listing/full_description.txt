@@ -1,0 +1,37 @@
+Dose Log is a simple, private log for medication you have been prescribed — tablets, weekly pens or vials, insulin, vitamin B12, hormone or fertility injections, or anything else your prescriber has given you.
+
+You add your own medications and enter the dose and schedule exactly as you were told. Dose Log keeps track of what is due, reminds you at the right time, and keeps a history you can look back on or share with your care team.
+
+TODAY AT A GLANCE
+• See doses due today, any you missed, and what is coming up next
+• Log a dose as Taken (adjust the time if you took it earlier) or Skip it
+• Undo with one tap
+
+FLEXIBLE SCHEDULES
+• Daily, on specific weekdays, or every N days (for example weekly)
+• Choose the time of day and start date
+• Pause a medication without losing its history
+
+INJECTION SITE ROTATION
+• Optional for each medication
+• Pick from abdomen, thigh, upper arm or buttock, left or right, on a simple body diagram
+• The site you used least recently is suggested automatically
+
+REMINDERS
+• A notification at each scheduled dose time
+• "Mark taken" straight from the notification, without opening the app
+• Reminders are restored after a restart or time zone change
+
+HISTORY AND EXPORT
+• Every logged dose grouped by date, filterable by medication
+• Edit or delete entries
+• Export your history as a CSV spreadsheet through the share sheet
+• Save a backup file and restore it later or on a new phone
+
+PRIVATE BY DESIGN
+• No account, no ads, no analytics
+• No internet permission — your data never leaves your phone unless you export it
+• Light and dark themes with Material You colours
+
+NOT MEDICAL ADVICE
+Dose Log is a personal tracker, not a medical device. It does not recommend medications, doses, schedules or injection sites. Always follow the instructions of your prescriber or pharmacist. Reminders may arrive a few minutes late, so do not rely on them as your only reminder for time-critical doses.
