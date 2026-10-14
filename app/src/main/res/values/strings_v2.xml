@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings for the v2 features: vials, calculator, progress, journal, sites, export, settings. -->
+<resources>
+    <!-- Navigation -->
+    <string name="tab_vials">Vials</string>
+    <string name="tab_progress">Progress</string>
+    <string name="tab_journal">Journal</string>
+    <string name="tab_more">More</string>
+    <string name="calculator">Calculator</string>
+    <string name="sites">Injection sites</string>
+    <string name="export_and_backup">Export &amp; backup</string>
+    <string name="more_medications">Your medications, doses and schedules</string>
+    <string name="more_calculator">Reconstitution and syringe-units maths</string>
+    <string name="more_sites">Body map, rotation and rest periods</string>
+    <string name="more_history">Every dose you\'ve logged</string>
+    <string name="more_export">PDF report, CSV and backups</string>
+    <string name="more_settings">Units, vial defaults, sites and appearance</string>
+    <string name="more_about">Privacy, disclaimer and version</string>
+    <string name="add">Add</string>
+    <string name="show_more">Show more</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="date">Date</string>
+    <string name="medication">Medication</string>
+    <string name="unknown_medication">Unknown medication</string>
+    <string name="remove_item">Remove %1$s</string>
+
+    <!-- Vials -->
+    <string name="add_vial">Add vial</string>
+    <string name="edit_vial">Edit vial</string>
+    <string name="new_vial">New vial</string>
+    <string name="view_vials">View vials</string>
+    <string name="delete_vial">Delete vial</string>
+    <string name="delete_vial_title">Delete this vial?</string>
+    <string name="delete_vial_body">The vial is removed. Doses you logged from it stay in your history.</string>
+    <string name="finish_vial">Mark as finished</string>
+    <string name="discard_vial">Discard vial</string>
+    <string name="vial_contents">Contents</string>
+    <string name="vial_amount">Amount in vial</string>
+    <string name="diluent_added">Water added</string>
+    <string name="diluent_hint">The bacteriostatic or sterile water you mixed in, in mL.</string>
+    <string name="vial_dates">Dates</string>
+    <string name="mixed_on">Mixed on</string>
+    <string name="use_by">Use by</string>
+    <string name="vial_label">Label or lot (optional)</string>
+    <string name="vial_status">Status</string>
+    <string name="vial_active">In use</string>
+    <string name="vial_finished">Finished</string>
+    <string name="vial_discarded">Discarded</string>
+    <string name="vials_in_use">In use</string>
+    <string name="vials_past">Past vials</string>
+    <string name="vial_remaining">%1$s of %2$s left</string>
+    <string name="vial_use_by">Use by %1$s</string>
+    <string name="vial_use_by_today">Use by today</string>
+    <string name="vial_expired_on">Expired %1$s</string>
+    <string name="vial_needs_medication">Add a medication first, then add its vials.</string>
+    <string name="vial_replaces_current">Saving this as in use will mark the current vial for this medication as finished.</string>
+    <string name="vial_units_dont_match">The vial\'s unit doesn\'t match this medication\'s dose unit, so units to draw can\'t be worked out.</string>
+    <string name="vial_preview_draw">A %1$s dose: %2$s</string>
+    <string name="vial_disclaimer">Use the amounts and use-by date from your prescriber, pharmacist or the product label.</string>
+    <string name="error_pick_medication">Choose a medication.</string>
+    <string name="error_use_by">The use-by date can\'t be before the mixing date.</string>
+    <string name="empty_vials_title">No vials yet</string>
+    <string name="empty_vials_body">Add a vial when you mix one. Every dose you log counts it down, and you\'ll be told when it\'s running low or about to expire.</string>
+    <string name="from_vial">From the %1$s vial · %2$s left</string>
+    <string name="concentration_format">%1$s %2$s/mL</string>
+    <string name="draw_format">Draw %1$s units (%2$s mL)</string>
+
+    <!-- Vial alerts -->
+    <string name="channel_vials">Vial alerts</string>
+    <string name="channel_vials_description">Low stock and expiry warnings for your vials</string>
+    <string name="vial_alert_title">Check your vial</string>
+    <string name="alert_empty">%1$s: the vial is empty</string>
+    <string name="alert_expired">%1$s: the vial is past its use-by date</string>
+    <string name="alert_expires_today">%1$s: the vial expires today</string>
+
+    <!-- Calculator -->
+    <string name="calc_units_to_draw">Units to draw</string>
+    <string name="calc_dose_from_units">Dose from units</string>
+    <string name="calc_vial">Vial</string>
+    <string name="calc_syringe">Syringe (U-100)</string>
+    <string name="calc_syringe_option">%1$s · %2$su</string>
+    <string name="calc_units_drawn">Units drawn</string>
+    <string name="calc_units_on_syringe">Units on the syringe</string>
+    <string name="calc_fill_from_vial">Fill from a vial</string>
+    <string name="calc_hint_vial">Enter how much is in the vial and how much water you added.</string>
+    <string name="calc_hint_dose">Enter your dose.</string>
+    <string name="calc_hint_units">Enter the units on the syringe.</string>
+    <string name="calc_draw_units">Draw %1$s units</string>
+    <string name="calc_draw_sub">%1$s mL on a %2$s U-100 syringe</string>
+    <string name="calc_thats_mg">That\'s %1$s mg</string>
+    <string name="calc_thats_sub">%1$s mcg · %2$s mL</string>
+    <string name="calc_concentration">Concentration</string>
+    <string name="calc_mg_per_ml">%1$s mg/mL</string>
+    <string name="calc_each_unit">Each unit holds</string>
+    <string name="calc_mcg">%1$s mcg</string>
+    <string name="calc_doses_per_vial">Doses per vial</string>
+    <string name="calc_warn_capacity">That\'s more than a %1$s syringe holds — it would take %2$s fills. Pick a larger syringe or check your numbers.</string>
+    <string name="calc_warn_small">Under 2 units is hard to measure accurately. More water in the vial means more units per dose, which is easier to read.</string>
+    <string name="calc_warn_more_than_vial">This dose is more than the whole vial contains. Check the vial amount and the dose unit (mg vs mcg).</string>
+    <string name="calc_disclaimer">A calculator, not medical advice. Always follow your prescriber or pharmacist, and double-check every measurement.</string>
+    <string name="syringe_description">Syringe filled to %1$s of %2$s units</string>
+    <string name="about_calc_title">About the calculator</string>
+    <string name="about_calc_body">The calculator only does arithmetic on the numbers you enter. It assumes U-100 insulin-style syringes (100 units per mL). It can\'t tell you what dose is right for you.</string>
+
+    <!-- Progress -->
+    <string name="add_measurement">Add measurement</string>
+    <string name="edit_measurement">Edit measurement</string>
+    <string name="add_custom_metric">Add a custom measurement</string>
+    <string name="metric_name">Name</string>
+    <string name="metric_unit_optional">Unit (optional)</string>
+    <string name="metric_weight">Weight</string>
+    <string name="metric_waist">Waist</string>
+    <string name="metric_body_fat">Body fat</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_lb">lb</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_in">in</string>
+    <string name="no_measurements">No measurements yet.</string>
+    <string name="progress_note">Track the measurements that matter to you. Days you logged a dose are marked on each chart.</string>
+    <string name="entries">Entries</string>
+    <string name="change_since">%1$s since %2$s</string>
+    <string name="metric_min_max">Low %1$s · High %2$s</string>
+    <string name="dose_marker_legend">▲ Days you logged a dose</string>
+    <string name="range_1m">1M</string>
+    <string name="range_3m">3M</string>
+    <string name="range_6m">6M</string>
+    <string name="range_all">All</string>
+    <string name="delete_metric">Delete measurement type</string>
+    <string name="delete_metric_title">Delete %1$s?</string>
+    <string name="delete_metric_body">This removes the measurement and all of its entries.</string>
+
+    <!-- Journal -->
+    <string name="journal_entries">Entries</string>
+    <string name="timeline">Timeline</string>
+    <string name="journal_prompt">How are you feeling today?</string>
+    <string name="write_today">Write today\'s entry</string>
+    <string name="edit_today">Edit today\'s entry</string>
+    <string name="journal_for">Journal · %1$s</string>
+    <string name="journal_note">Notes</string>
+    <string name="ratings">How was it?</string>
+    <string name="ratings_hint">Tap to rate from 1 to 5. Tap again to clear.</string>
+    <string name="rating_energy">Energy</string>
+    <string name="rating_sleep">Sleep</string>
+    <string name="rating_appetite">Appetite</string>
+    <string name="rating_mood">Mood</string>
+    <string name="rating_description">%1$s: %2$s of 5</string>
+    <string name="side_effects">Side effects</string>
+    <string name="add_side_effect">Add another</string>
+    <string name="side_effect_name">Side effect</string>
+    <string name="se_nausea">Nausea</string>
+    <string name="se_headache">Headache</string>
+    <string name="se_fatigue">Fatigue</string>
+    <string name="se_site_reaction">Injection-site reaction</string>
+    <string name="se_gi_upset">GI upset</string>
+    <string name="se_insomnia">Insomnia</string>
+    <string name="reaction_site_question">Which site reacted?</string>
+    <string name="empty_journal_title">Nothing written yet</string>
+    <string name="empty_journal_body">A quick daily note on energy, sleep, appetite, mood and side effects makes patterns easy to spot — and easy to share with your prescriber.</string>
+    <string name="empty_timeline_title">Your timeline is empty</string>
+    <string name="empty_timeline_body">Doses, vials, measurements and journal entries will appear here day by day.</string>
+    <string name="timeline_journal">Journal entry</string>
+    <string name="timeline_vial_mixed">Mixed a new vial of %1$s</string>
+    <string name="timeline_vial_finished">Finished a vial of %1$s</string>
+    <string name="timeline_vial_discarded">Discarded a vial of %1$s</string>
+
+    <!-- Sites -->
+    <string name="all_sites">All sites</string>
+    <string name="sites_tap_hint">Tap a site on the body to see its history.</string>
+    <string name="suggested_site_all_resting">All sites are resting — least recently used: %1$s</string>
+    <string name="never_used">Never used</string>
+    <string name="used_today">Used today</string>
+    <string name="resting">resting</string>
+    <string name="rest_period">Rest period</string>
+    <string name="site_history">History</string>
+    <string name="site_reactions">Reactions noted</string>
+    <string name="no_note">No note</string>
+    <string name="heat_recent">Used recently</string>
+    <string name="heat_resting">Resting</string>
+    <string name="heat_rested">Rested</string>
+    <string name="area_abdomen_upper">Upper abdomen</string>
+    <string name="area_abdomen_lower">Lower abdomen</string>
+    <string name="area_glute">Glute</string>
+
+    <!-- Export -->
+    <string name="report_section">Report for your prescriber</string>
+    <string name="report_section_body">A PDF summary of a date range: medications and schedules, adherence, every dose, measurement trends and side effects.</string>
+    <string name="create_report">Create PDF report</string>
+    <string name="report_failed">Couldn\'t create the report.</string>
+    <string name="last_30_days">Last 30 days</string>
+    <string name="last_90_days">Last 90 days</string>
+    <string name="last_6_months">Last 6 months</string>
+    <string name="custom_range">Custom</string>
+    <string name="csv_section">Spreadsheets (CSV)</string>
+    <string name="csv_section_body">Export a table to open in any spreadsheet app.</string>
+    <string name="csv_doses">Doses</string>
+    <string name="csv_vials">Vials</string>
+    <string name="csv_measurements">Measurements</string>
+    <string name="csv_journal">Journal</string>
+    <string name="backup_section">Backup</string>
+    <string name="backup_section_body">Save everything to a file you keep, or restore from one. Use this to move to a new phone.</string>
+
+    <!-- PDF report -->
+    <string name="report_title">Peptide Essentials — personal summary</string>
+    <string name="report_period">%1$s – %2$s</string>
+    <string name="report_generated">Generated %1$s</string>
+    <string name="report_disclaimer">Self-recorded by the patient in Peptide Essentials. Not a medical record; not verified by a clinician.</string>
+    <string name="report_medications">Medications</string>
+    <string name="report_none">None recorded.</string>
+    <string name="report_adherence">Adherence</string>
+    <string name="report_scheduled">Due</string>
+    <string name="report_missed">Missed</string>
+    <string name="report_adherence_note">Due counts scheduled doses in the period; % is taken divided by due.</string>
+    <string name="report_doses">Doses</string>
+    <string name="report_status_site">Status / site</string>
+    <string name="report_measurements">Measurements</string>
+    <string name="report_metric_line">%1$s (%2$s) → %3$s (%4$s) · change %5$s · %6$s entries</string>
+    <string name="report_side_effects">Side effects</string>
+
+    <!-- Settings -->
+    <string name="settings_units">Units</string>
+    <string name="settings_vials">Vials</string>
+    <string name="settings_use_by">Default use-by period after mixing</string>
+    <string name="settings_use_by_hint">Applied to new vials; you can change each vial\'s date. Follow the product label or your pharmacist.</string>
+    <string name="settings_sites">Injection sites</string>
+    <string name="settings_rest_all">Rest period for all sites</string>
+    <string name="settings_rest_hint">How long a site rests before it\'s suggested again.</string>
+    <string name="settings_rest_mixed">Sites currently have different rest periods; setting one here applies it to all.</string>
+    <string name="settings_custom_side_effects">Your side effects</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_dynamic_color">Use wallpaper colours</string>
+    <string name="settings_dynamic_color_body">Match the app\'s colours to your wallpaper (Android 12 and newer).</string>
+    <string name="settings_theme_follows_system">Light or dark follows your phone\'s setting.</string>
+    <string name="settings_notifications_body">Reminders and vial alerts use your phone\'s notification settings.</string>
+    <string name="settings_open_notifications">Open notification settings</string>
+
+    <!-- About -->
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="privacy_policy_url">https://deveshb-1.github.io/peptide-essentials/privacy.html</string>
+
+    <plurals name="alert_expiring">
+        <item quantity="one">%1$s: the vial expires in %2$s day</item>
+        <item quantity="other">%1$s: the vial expires in %2$s days</item>
+    </plurals>
+    <plurals name="alert_low_stock">
+        <item quantity="one">%1$s: %2$s dose left in the vial</item>
+        <item quantity="other">%1$s: %2$s doses left in the vial</item>
+    </plurals>
+    <plurals name="chart_description">
+        <item quantity="one">%1$s chart with %2$s entry</item>
+        <item quantity="other">%1$s chart with %2$s entries</item>
+    </plurals>
+    <plurals name="days_count">
+        <item quantity="one">%1$s day</item>
+        <item quantity="other">%1$s days</item>
+    </plurals>
+    <plurals name="doses_count">
+        <item quantity="one">%1$s dose</item>
+        <item quantity="other">%1$s doses</item>
+    </plurals>
+    <plurals name="doses_left">
+        <item quantity="one">%1$s dose left</item>
+        <item quantity="other">%1$s doses left</item>
+    </plurals>
+    <plurals name="doses_per_vial">
+        <item quantity="one">About %1$s dose per vial</item>
+        <item quantity="other">About %1$s doses per vial</item>
+    </plurals>
+    <plurals name="in_days">
+        <item quantity="one">in %1$s day</item>
+        <item quantity="other">in %1$s days</item>
+    </plurals>
+    <plurals name="injections_count">
+        <item quantity="one">%1$s injection</item>
+        <item quantity="other">%1$s injections</item>
+    </plurals>
+    <plurals name="report_days">
+        <item quantity="one">%1$s: %2$s day</item>
+        <item quantity="other">%1$s: %2$s days</item>
+    </plurals>
+    <plurals name="report_journal_days">
+        <item quantity="one">From %1$s journal day.</item>
+        <item quantity="other">From %1$s journal days.</item>
+    </plurals>
+    <plurals name="rest_period_warning">
+        <item quantity="one">still resting (%1$s-day rest)</item>
+        <item quantity="other">still resting (%1$s-day rest)</item>
+    </plurals>
+    <plurals name="rest_short">
+        <item quantity="one">%1$s-day rest</item>
+        <item quantity="other">%1$s-day rest</item>
+    </plurals>
+    <plurals name="use_by_default_hint">
+        <item quantity="one">Defaults to %1$s day after mixing</item>
+        <item quantity="other">Defaults to %1$s days after mixing</item>
+    </plurals>
+    <plurals name="used_days_ago">
+        <item quantity="one">Used %1$s day ago</item>
+        <item quantity="other">Used %1$s days ago</item>
+    </plurals>
+</resources>

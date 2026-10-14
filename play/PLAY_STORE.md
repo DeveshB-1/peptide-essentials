@@ -4,7 +4,7 @@ Everything in this folder is ready to paste/upload into Play Console.
 
 | Play Console field | Use |
 | --- | --- |
-| App bundle | `DoseLog.aab` from the latest GitHub release |
+| App bundle | `PeptideEssentials.aab` from the latest GitHub release |
 | App name | `listing/title.txt` |
 | Short description | `listing/short_description.txt` |
 | Full description | `listing/full_description.txt` |
@@ -12,7 +12,7 @@ Everything in this folder is ready to paste/upload into Play Console.
 | App icon (512×512) | `icon-512.png` |
 | Feature graphic (1024×500) | `feature-graphic.png` |
 | Phone screenshots | Take at least 2 on your own phone (Today, History, Medications, site picker) |
-| Privacy policy URL | https://deveshb-1.github.io/dose-log/privacy.html |
+| Privacy policy URL | https://deveshb-1.github.io/peptide-essentials/privacy.html |
 | Category | **Health & Fitness** (recommended; *Medical* also fits, but invites stricter review) |
 | Contains ads | No |
 | In-app purchases | No |
@@ -38,7 +38,7 @@ Everything in this folder is ready to paste/upload into Play Console.
 
 ## Signing
 
-Use Play App Signing. Either upload `~/.android/dose-log-release.jks` (alias `doselog`) via Google's PEPK tool
+Use Play App Signing. Either upload `~/.android/dose-log-release.jks` (alias `doselog` (kept from v1)) via Google's PEPK tool
 so Play builds and GitHub-release APKs share a signature, or let Google generate the app signing key and keep
 this keystore as the **upload key** (sideloaded installs then need uninstalling once before installing from
 Play). Keep the keystore and its password backed up somewhere safe — they are not in this repository.

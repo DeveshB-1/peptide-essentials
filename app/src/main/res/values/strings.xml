@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Dose Log</string>
+    <string name="app_name">Peptide Essentials</string>
 
     <!-- Navigation -->
     <string name="tab_today">Today</string>
@@ -157,23 +157,23 @@
     <string name="reminders_body">A notification at the scheduled time.</string>
     <string name="paused_body">Hide from Today and stop reminders. History is kept.</string>
     <string name="notes_optional">Notes (optional)</string>
-    <string name="editor_disclaimer">Enter the dose exactly as prescribed. Dose Log doesn\'t check, suggest or change doses.</string>
+    <string name="editor_disclaimer">Enter the dose exactly as prescribed. Peptide Essentials doesn\'t check, suggest or change doses.</string>
     <string name="delete_medication">Delete medication</string>
     <string name="delete_medication_title">Delete %1$s?</string>
     <string name="delete_medication_body">Its reminders will stop. Doses already logged stay in your history.</string>
 
     <!-- Export and backup -->
     <string name="export_csv">Export history (CSV)</string>
-    <string name="export_subject">Dose Log history</string>
+    <string name="export_subject">Peptide Essentials history</string>
     <string name="export_failed">No app available to share the file.</string>
     <string name="nothing_to_export">Nothing to export yet.</string>
     <string name="backup">Back up data</string>
     <string name="backup_saved">Backup saved.</string>
     <string name="backup_failed">Couldn\'t save the backup.</string>
     <string name="restore">Restore from backup</string>
-    <string name="restore_failed">That file isn\'t a Dose Log backup.</string>
+    <string name="restore_failed">That file isn\'t a Peptide Essentials backup.</string>
     <string name="restore_title">Replace all data?</string>
-    <string name="restore_body">Everything currently in Dose Log will be replaced with the backup: %1$s and %2$s.</string>
+    <string name="restore_body">Everything currently in Peptide Essentials will be replaced with the backup: %1$s and %2$s.</string>
     <string name="restore_confirm">Replace</string>
     <string name="restore_done">Backup restored.</string>
     <plurals name="medication_count">
@@ -197,17 +197,17 @@
     <string name="about">About</string>
     <string name="version">Version %1$s</string>
     <string name="not_medical_advice_title">Not medical advice</string>
-    <string name="not_medical_advice_body">Dose Log is a personal log. It doesn\'t recommend medications, doses, schedules or injection sites, and it isn\'t a medical device. Always follow the instructions from your prescriber or pharmacist, and ask them if you\'re unsure about a dose.</string>
+    <string name="not_medical_advice_body">Peptide Essentials is a personal log. It doesn\'t recommend medications, doses, schedules or injection sites, and it isn\'t a medical device. Always follow the instructions from your prescriber or pharmacist, and ask them if you\'re unsure about a dose.</string>
     <string name="about_data_title">Your data</string>
-    <string name="about_data_body">Everything you enter is stored only on this device. Dose Log has no internet access, no accounts, no ads and no analytics. Nothing leaves your phone unless you export or back it up yourself.</string>
+    <string name="about_data_body">Everything you enter is stored only on this device. Peptide Essentials has no internet access, no accounts, no ads and no analytics. Nothing leaves your phone unless you export or back it up yourself.</string>
     <string name="about_reminders_title">Reminders</string>
-    <string name="about_reminders_body">Reminders use battery-friendly alarms, so they can arrive a few minutes late. Keep notifications allowed for Dose Log, and don\'t rely on the app as your only reminder for time-critical doses.</string>
+    <string name="about_reminders_body">Reminders use battery-friendly alarms, so they can arrive a few minutes late. Keep notifications allowed for Peptide Essentials, and don\'t rely on the app as your only reminder for time-critical doses.</string>
     <string name="about_sites_title">Injection sites</string>
     <string name="about_sites_body">The suggested site is simply the one you\'ve used least recently for that medication. Use only the sites your prescriber or pharmacist has shown you.</string>
     <string name="about_backup_title">Export and backup</string>
     <string name="about_backup_body">Export history as a CSV file to share with your care team, or save a backup file and restore it later or on another phone. You choose where files go.</string>
-    <string name="welcome_title">Welcome to Dose Log</string>
-    <string name="welcome_body">Dose Log is a personal log for medication you\'ve been prescribed. It is not medical advice and doesn\'t recommend doses or injection sites. Always follow your prescriber\'s or pharmacist\'s instructions.</string>
+    <string name="welcome_title">Welcome to Peptide Essentials</string>
+    <string name="welcome_body">Peptide Essentials is a personal log for medication you\'ve been prescribed. It is not medical advice and doesn\'t recommend doses or injection sites. Always follow your prescriber\'s or pharmacist\'s instructions.</string>
     <string name="welcome_privacy">Everything you enter stays on this device. The app has no internet access.</string>
     <string name="i_understand">I understand</string>
 </resources>

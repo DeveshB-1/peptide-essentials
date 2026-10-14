@@ -1,37 +1,46 @@
-Dose Log is a simple, private log for medication you have been prescribed — tablets, weekly pens or vials, insulin, vitamin B12, hormone or fertility injections, or anything else your prescriber has given you.
+Peptide Essentials is an all-in-one, private tracker for the peptide and injection medications you have been prescribed — from mixing a vial to logging every dose, rotating injection sites and seeing how you're progressing.
 
-You add your own medications and enter the dose and schedule exactly as you were told. Dose Log keeps track of what is due, reminds you at the right time, and keeps a history you can look back on or share with your care team.
+You add your own medications and enter everything exactly as your prescriber or pharmacist told you. The app keeps it all organised, reminds you on time, and gives you a clear record to share with your care team.
 
 TODAY AT A GLANCE
-• See doses due today, any you missed, and what is coming up next
-• Log a dose as Taken (adjust the time if you took it earlier) or Skip it
-• Undo with one tap
+• Doses due today, any you missed, and what's coming up
+• "Draw N units" shown right on each dose, worked out from your active vial
+• Log a dose as Taken or Skipped in a tap — even straight from the reminder
 
-FLEXIBLE SCHEDULES
-• Daily, on specific weekdays, or every N days (for example weekly)
-• Choose the time of day and start date
-• Pause a medication without losing its history
+VIAL INVENTORY
+• Track every vial: amount, water added, mixing date, use-by date and lot
+• Remaining amount counts down automatically with each dose
+• Alerts when a vial is running low or about to expire
 
-INJECTION SITE ROTATION
-• Optional for each medication
-• Pick from abdomen, thigh, upper arm or buttock, left or right, on a simple body diagram
-• The site you used least recently is suggested automatically
+BUILT-IN CALCULATOR
+• Reconstitution maths: concentration, units to draw and doses per vial
+• To-scale U-100 syringe guide for 0.3, 0.5 and 1 mL syringes
+• Reverse mode: see what dose a number of units contains
+• Clear warnings for draws that won't fit or are too small to measure
 
-REMINDERS
-• A notification at each scheduled dose time
-• "Mark taken" straight from the notification, without opening the app
-• Reminders are restored after a restart or time zone change
+INJECTION SITES
+• Tappable front and back body model with 10 sites (abdomen upper & lower, thighs, upper arms, glutes — left and right)
+• Heat map shows which sites were used recently and which have rested
+• Suggests the best site to use next, respecting a rest period you set
+• Per-site history, including any reactions you noted
 
-HISTORY AND EXPORT
-• Every logged dose grouped by date, filterable by medication
-• Edit or delete entries
-• Export your history as a CSV spreadsheet through the share sheet
-• Save a backup file and restore it later or on a new phone
+PROGRESS
+• Weight, waist, body fat and your own custom measurements
+• Trend charts (1M / 3M / 6M / All) with dose days marked
+• Change since you started
+
+JOURNAL & TIMELINE
+• Daily ratings for energy, sleep, appetite and mood
+• Side effects you can tap in, plus your own
+• A day-by-day timeline of doses, vials, measurements and notes
+
+REPORTS & BACKUP
+• PDF report for your prescriber: adherence, doses, trends and side effects
+• CSV export of every table
+• Full backup and restore to move to a new phone
 
 PRIVATE BY DESIGN
-• No account, no ads, no analytics
-• No internet permission — your data never leaves your phone unless you export it
-• Light and dark themes with Material You colours
+No accounts, no ads, no tracking. The app has no internet access — everything stays on your phone.
 
-NOT MEDICAL ADVICE
-Dose Log is a personal tracker, not a medical device. It does not recommend medications, doses, schedules or injection sites. Always follow the instructions of your prescriber or pharmacist. Reminders may arrive a few minutes late, so do not rely on them as your only reminder for time-critical doses.
+IMPORTANT
+Peptide Essentials is a personal log, not medical advice or a medical device. It does not recommend medications, doses or schedules. Always follow your prescriber's or pharmacist's instructions.

@@ -1,36 +1,28 @@
-# Dose Log
+# Peptide Essentials
 
-A neutral, offline Android app for keeping track of medication you've been prescribed — weekly pens or vials,
-insulin, B12, hormone or fertility injections, daily tablets, anything. You name your own medications and
-enter doses exactly as prescribed; the app reminds you and keeps the log.
+An all-in-one, offline tracker for the peptide and injection medications you've been prescribed: vials, doses,
+reminders, injection-site rotation, progress and a daily journal — with a PDF report for your prescriber.
 
-> **Not medical advice.** Dose Log is a personal log, not a medical device. It doesn't recommend medications,
-> doses, schedules or injection sites. Always follow your prescriber's or pharmacist's instructions.
+> **Not medical advice.** Peptide Essentials is a personal log, not a medical device. It doesn't recommend
+> medications, doses or schedules, and ships with no presets. Always follow your prescriber or pharmacist.
+
+## Screenshots
+
+<table><tr><td align="center"><img src="play/screenshots/1-today.png" width="220" alt="Today"><br><sub>Today</sub></td><td align="center"><img src="play/screenshots/2-log-dose-body-model.png" width="220" alt="Log a dose on the body model"><br><sub>Log a dose on the body model</sub></td><td align="center"><img src="play/screenshots/3-vials.png" width="220" alt="Vial inventory"><br><sub>Vial inventory</sub></td><td align="center"><img src="play/screenshots/4-injection-sites.png" width="220" alt="Injection-site heat map"><br><sub>Injection-site heat map</sub></td><td align="center"><img src="play/screenshots/5-progress.png" width="220" alt="Progress"><br><sub>Progress</sub></td><td align="center"><img src="play/screenshots/6-timeline.png" width="220" alt="Timeline"><br><sub>Timeline</sub></td><td align="center"><img src="play/screenshots/7-vial-calculator.png" width="220" alt="Vial + calculator"><br><sub>Vial + calculator</sub></td></tr></table>
 
 ## Features
 
-- **Medications** – name, dose amount and unit (mg, mcg, mL, units, IU), schedule (daily, specific weekdays or
-  every N days), time of day, start date, notes, colour tag, optional injection-site tracking, per-medication
-  reminders, and pause/resume.
-- **Today** – missed doses (last 7 days), doses due today and what's coming up. Log a dose as *Taken* (time,
-  amount and site editable) or *Skip* it, with undo.
-- **Injection site rotation** – abdomen, thigh, upper arm and buttock, left/right, picked on a front/back body
-  diagram or with chips. The least recently used site for that medication is pre-selected.
-- **History** – grouped by date, newest first, filterable by medication; tap an entry to edit or delete it.
-- **Reminders** – a notification at each dose time with a *Mark taken* action that logs the dose without
-  opening the app. Uses inexact `setAndAllowWhileIdle` alarms (no exact-alarm permission), rescheduled after
-  reboot and on time or time-zone changes. Notification permission is requested on Android 13+ only when you
-  first save a medication with reminders on.
-- **Export & backup** – share full history as CSV, and save/restore a JSON backup through the system file
-  picker (no storage permissions).
-- Material 3 with dynamic colour on Android 12+ (teal/green fallback), light and dark themes, edge-to-edge,
-  TalkBack labels.
-
-## Privacy
-
-No accounts, ads, analytics or network access — the app doesn't request the `INTERNET` permission. Data is
-stored as JSON in app-private storage and excluded from cloud backup. See the
-[privacy policy](https://deveshb-1.github.io/dose-log/privacy.html).
+- **Today:** doses due, missed and upcoming, each showing "Draw N units (X mL)" from the active vial; log Taken/Skipped,
+  also straight from the reminder notification.
+- **Vials:** amount, water added, mix and use-by dates, lot; remaining amount counts down with each dose; low-stock and
+  expiry alerts.
+- **Calculator:** reconstitution maths with a to-scale U-100 syringe (0.3/0.5/1 mL), reverse mode, safety warnings.
+- **Injection sites:** front/back body model with 10 sites, recency heat map, rest periods, suggestions, per-site
+  history and reactions.
+- **Progress:** weight, waist, body fat and custom metrics with Canvas trend charts and dose-day markers.
+- **Journal & timeline:** daily ratings, side effects, notes, and a merged day-by-day timeline.
+- **Export:** PDF report (adherence, doses, trends, side effects), CSV per table, full JSON backup/restore.
+- **Private:** no internet permission, no accounts, no analytics. Data is excluded from cloud backup.
 
 ## Build
 
@@ -59,13 +51,13 @@ or, in CI, from the `KEYSTORE_FILE`, `KEYSTORE_PASSWORD`, `KEY_ALIAS` and `KEY_P
 Without either, release builds fall back to the debug key.
 
 GitHub Actions builds the APK and App Bundle on every push; pushing a `v*` tag publishes a release with
-`DoseLog.apk` and `DoseLog.aab`. The workflow expects the secrets `KEYSTORE_B64` (base64 keystore),
+`PeptideEssentials.apk` and `PeptideEssentials.aab`. The workflow expects the secrets `KEYSTORE_B64` (base64 keystore),
 `KEYSTORE_PASSWORD`, `KEY_ALIAS` and `KEY_PASSWORD`.
 
 ## Project layout
 
 ```
-app/src/main/java/io/github/deveshb1/doselog/
+app/src/main/java/io/github/deveshb1/peptideessentials/
   data/        models, JSON codec, repository (StateFlow + atomic file)
   schedule/    schedule maths, Today planner, site rotation
   reminders/   alarm scheduling, notification, receivers

@@ -1,1 +1,1 @@
-Offline log and reminders for the medication and injections you are prescribed.
+Peptide & injection tracker: vials, doses, sites, progress and journal.
